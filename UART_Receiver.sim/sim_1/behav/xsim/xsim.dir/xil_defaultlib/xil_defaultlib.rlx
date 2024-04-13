@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sim_1/new/UART_Receiver_TB.sv,1712970985,systemVerilog,,,,UART_Receiver_TB,,uvm,,,,,,
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/Baudrate_Generator.sv,1712955738,systemVerilog,,D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/FIFO_Buffer.sv,,Baudrate_Generator,,uvm,,,,,,
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/FIFO_Buffer.sv,1711286912,systemVerilog,,D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/UART_RX.sv,,FIFO_Buffer,,uvm,,,,,,
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/UART_RX.sv,1712965555,systemVerilog,,D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/UART_Receiver.sv,,UART_RX,,uvm,,,,,,
+D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sources_1/new/UART_Receiver.sv,1711287097,systemVerilog,,D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sim_1/new/UART_Receiver_TB.sv,,UART_Receiver,,uvm,,,,,,

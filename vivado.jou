@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Apr 12 23:57:20 2024
+# Process ID: 10740
+# Current directory: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16224 D:\Materiale_pentru_facultate\Master\Anul 1\Semestrul 2\RC\Lab\Lab 1\Task 1\UART_Receiver\UART_Receiver.xpr
+# Log file: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/vivado.log
+# Journal file: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver\vivado.jou
+# Running On: DESKTOP-7P0D6RH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16836 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source UART_Receiver_TB.tcl
+relaunch_sim
+restart
+run 156 us
+current_wave_config {Untitled 1}
+add_wave {{/UART_Receiver_TB/DUT/baud_generator/baudrate_select}} {{/UART_Receiver_TB/DUT/baud_generator/rx_baud}} {{/UART_Receiver_TB/DUT/baud_generator/counter}} 
+current_wave_config {Untitled 1}
+add_wave {{/UART_Receiver_TB/DUT/clk}} {{/UART_Receiver_TB/DUT/rst_n}} 
+current_wave_config {Untitled 1}
+add_wave {{/UART_Receiver_TB/DUT/uart_rx/rx_baud}} {{/UART_Receiver_TB/DUT/uart_rx/rx_start}} {{/UART_Receiver_TB/DUT/uart_rx/rx}} {{/UART_Receiver_TB/DUT/uart_rx/rx_done}} {{/UART_Receiver_TB/DUT/uart_rx/parity_bit}} {{/UART_Receiver_TB/DUT/uart_rx/data_out}} {{/UART_Receiver_TB/DUT/uart_rx/state}} {{/UART_Receiver_TB/DUT/uart_rx/next_state}} {{/UART_Receiver_TB/DUT/uart_rx/buffer_in}} {{/UART_Receiver_TB/DUT/uart_rx/next_buffer_in}} {{/UART_Receiver_TB/DUT/uart_rx/bit_counter}} {{/UART_Receiver_TB/DUT/uart_rx/next_bit_counter}} 
+current_wave_config {Untitled 1}
+add_wave {{/UART_Receiver_TB/DUT/fifo/wr_en}} {{/UART_Receiver_TB/DUT/fifo/rd_en}} {{/UART_Receiver_TB/DUT/fifo/data_in}} {{/UART_Receiver_TB/DUT/fifo/data_out}} {{/UART_Receiver_TB/DUT/fifo/empty}} {{/UART_Receiver_TB/DUT/fifo/full}} {{/UART_Receiver_TB/DUT/fifo/wr_en_mem}} {{/UART_Receiver_TB/DUT/fifo/rd_en_mem}} {{/UART_Receiver_TB/DUT/fifo/wr_ptr_reg}} {{/UART_Receiver_TB/DUT/fifo/rd_ptr_reg}} {{/UART_Receiver_TB/DUT/fifo/fifo_counter}} {{/UART_Receiver_TB/DUT/fifo/memory}} 

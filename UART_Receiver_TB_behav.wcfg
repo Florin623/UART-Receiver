@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_Receiver_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_Receiver_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="2,136.045001 us"></ZoomEndTime>
+      <Cursor1Time time="2,071.485000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/UART_Receiver_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Receiver_TB/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Baud Gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/baud_generator/baudrate_select" type="logic">
+         <obj_property name="ElementShortName">baudrate_select</obj_property>
+         <obj_property name="ObjectShortName">baudrate_select</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/baud_generator/rx_baud" type="logic">
+         <obj_property name="ElementShortName">rx_baud</obj_property>
+         <obj_property name="ObjectShortName">rx_baud</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/baud_generator/counter" type="array">
+         <obj_property name="ElementShortName">counter[13:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">UART_RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/rx_baud" type="logic">
+         <obj_property name="ElementShortName">rx_baud</obj_property>
+         <obj_property name="ObjectShortName">rx_baud</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/rx_start" type="logic">
+         <obj_property name="ElementShortName">rx_start</obj_property>
+         <obj_property name="ObjectShortName">rx_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/rx_done" type="logic">
+         <obj_property name="ElementShortName">rx_done</obj_property>
+         <obj_property name="ObjectShortName">rx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/parity_bit" type="logic">
+         <obj_property name="ElementShortName">parity_bit</obj_property>
+         <obj_property name="ObjectShortName">parity_bit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/buffer_in" type="array">
+         <obj_property name="ElementShortName">buffer_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buffer_in[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/next_buffer_in" type="array">
+         <obj_property name="ElementShortName">next_buffer_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">next_buffer_in[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/bit_counter" type="array">
+         <obj_property name="ElementShortName">bit_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_counter[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/uart_rx/next_bit_counter" type="array">
+         <obj_property name="ElementShortName">next_bit_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_bit_counter[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/wr_en_mem" type="logic">
+         <obj_property name="ElementShortName">wr_en_mem</obj_property>
+         <obj_property name="ObjectShortName">wr_en_mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/rd_en_mem" type="logic">
+         <obj_property name="ElementShortName">rd_en_mem</obj_property>
+         <obj_property name="ObjectShortName">rd_en_mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/wr_ptr_reg" type="array">
+         <obj_property name="ElementShortName">wr_ptr_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_ptr_reg[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/rd_ptr_reg" type="array">
+         <obj_property name="ElementShortName">rd_ptr_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_ptr_reg[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/fifo_counter" type="array">
+         <obj_property name="ElementShortName">fifo_counter[4:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_counter[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory" type="array">
+         <obj_property name="ElementShortName">memory[0:31][7:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0:31][7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[0]" type="array">
+            <obj_property name="ElementShortName">[0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[1]" type="array">
+            <obj_property name="ElementShortName">[1][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[2]" type="array">
+            <obj_property name="ElementShortName">[2][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[3]" type="array">
+            <obj_property name="ElementShortName">[3][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[4]" type="array">
+            <obj_property name="ElementShortName">[4][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[5]" type="array">
+            <obj_property name="ElementShortName">[5][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[6]" type="array">
+            <obj_property name="ElementShortName">[6][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[7]" type="array">
+            <obj_property name="ElementShortName">[7][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[8]" type="array">
+            <obj_property name="ElementShortName">[8][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[9]" type="array">
+            <obj_property name="ElementShortName">[9][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[10]" type="array">
+            <obj_property name="ElementShortName">[10][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[11]" type="array">
+            <obj_property name="ElementShortName">[11][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[12]" type="array">
+            <obj_property name="ElementShortName">[12][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[13]" type="array">
+            <obj_property name="ElementShortName">[13][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[14]" type="array">
+            <obj_property name="ElementShortName">[14][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[15]" type="array">
+            <obj_property name="ElementShortName">[15][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[16]" type="array">
+            <obj_property name="ElementShortName">[16][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[17]" type="array">
+            <obj_property name="ElementShortName">[17][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[18]" type="array">
+            <obj_property name="ElementShortName">[18][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[19]" type="array">
+            <obj_property name="ElementShortName">[19][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[20]" type="array">
+            <obj_property name="ElementShortName">[20][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[21]" type="array">
+            <obj_property name="ElementShortName">[21][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[22]" type="array">
+            <obj_property name="ElementShortName">[22][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[23]" type="array">
+            <obj_property name="ElementShortName">[23][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[24]" type="array">
+            <obj_property name="ElementShortName">[24][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[25]" type="array">
+            <obj_property name="ElementShortName">[25][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[26]" type="array">
+            <obj_property name="ElementShortName">[26][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[27]" type="array">
+            <obj_property name="ElementShortName">[27][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[28]" type="array">
+            <obj_property name="ElementShortName">[28][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[29]" type="array">
+            <obj_property name="ElementShortName">[29][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[30]" type="array">
+            <obj_property name="ElementShortName">[30][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[31]" type="array">
+            <obj_property name="ElementShortName">[31][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][7:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
