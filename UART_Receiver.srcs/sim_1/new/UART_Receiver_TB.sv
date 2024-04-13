@@ -23,17 +23,17 @@ module UART_Receiver_TB();
 
     initial begin
         clk = 1'b0;
-        forever #5 clk = !clk;
+        forever #4 clk = !clk;
     end
 
     initial begin
-        #2;
+        #1.5;
         rst_n = 1'b0;
         baudrate_select = 1'b0;     // 9600 bits per second
         rx = 1'b1;
         rd_en = 1'b0;
         repeat(2) @(posedge clk);
-        #3;
+        #2;
         rst_n = 1'b1;
 
         repeat(13020) @(posedge clk);
@@ -74,13 +74,13 @@ module UART_Receiver_TB();
 
         repeat(14000) @(posedge clk);
 
-        #2;
+        #1.5;
         rst_n = 1'b0;
         baudrate_select = 1'b1;     // 115200 bits per second
         rx = 1'b1;
         rd_en = 1'b0;
         repeat(2) @(posedge clk);
-        #3;
+        #2;
         rst_n = 1'b1;
 
         repeat(1084) @(posedge clk);

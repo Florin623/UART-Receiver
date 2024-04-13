@@ -3,10 +3,10 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Sat Apr 13 18:37:23 2024
-# Process ID: 9372
+# Start of session at: Fri Apr 12 23:57:20 2024
+# Process ID: 10740
 # Current directory: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16180 D:\Materiale_pentru_facultate\Master\Anul 1\Semestrul 2\RC\Lab\Lab 1\Task 1\UART_Receiver\UART_Receiver.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16224 D:\Materiale_pentru_facultate\Master\Anul 1\Semestrul 2\RC\Lab\Lab 1\Task 1\UART_Receiver\UART_Receiver.xpr
 # Log file: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/vivado.log
 # Journal file: D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver\vivado.jou
 # Running On: DESKTOP-7P0D6RH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16836 MB
@@ -16,6 +16,7 @@ open_project {D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver'
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/UART_Receiver' since last save.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
@@ -40,6 +41,7 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 avai
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.gen/sources_1'.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
@@ -62,13 +64,12 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1441.293 ; gain = 210.262
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:20 . Memory (MB): peak = 1468.508 ; gain = 407.227
 update_compile_order -fileset sources_1
 launch_simulation
 Command: launch_simulation 
@@ -95,7 +96,9 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Materiale_pentru_facultate
 INFO: [VRFC 10-311] analyzing module UART_Receiver
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sim_1/new/UART_Receiver_TB.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module UART_Receiver_TB
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
 "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_Receiver_TB_behav xil_defaultlib.UART_Receiver_TB xil_defaultlib.glbl -log elaborate.log"
@@ -127,7 +130,7 @@ Compiling module xil_defaultlib.UART_Receiver
 Compiling module xil_defaultlib.UART_Receiver_TB
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot UART_Receiver_TB_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -147,22 +150,56 @@ source UART_Receiver_TB.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'UART_Receiver_TB_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1517.477 ; gain = 29.594
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1523.941 ; gain = 25.176
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Receiver_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'UART_Receiver_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj UART_Receiver_TB_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Receiver_TB'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_Receiver_TB_behav xil_defaultlib.UART_Receiver_TB xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_Receiver_TB_behav xil_defaultlib.UART_Receiver_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 156 us
 current_wave_config {Untitled 1}
 Untitled 1
 add_wave {{/UART_Receiver_TB/DUT/baud_generator/baudrate_select}} {{/UART_Receiver_TB/DUT/baud_generator/rx_baud}} {{/UART_Receiver_TB/DUT/baud_generator/counter}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/UART_Receiver_TB/DUT/clk}} {{/UART_Receiver_TB/DUT/rst_n}} 
 current_wave_config {Untitled 1}
 Untitled 1
 add_wave {{/UART_Receiver_TB/DUT/uart_rx/rx_baud}} {{/UART_Receiver_TB/DUT/uart_rx/rx_start}} {{/UART_Receiver_TB/DUT/uart_rx/rx}} {{/UART_Receiver_TB/DUT/uart_rx/rx_done}} {{/UART_Receiver_TB/DUT/uart_rx/parity_bit}} {{/UART_Receiver_TB/DUT/uart_rx/data_out}} {{/UART_Receiver_TB/DUT/uart_rx/state}} {{/UART_Receiver_TB/DUT/uart_rx/next_state}} {{/UART_Receiver_TB/DUT/uart_rx/buffer_in}} {{/UART_Receiver_TB/DUT/uart_rx/next_buffer_in}} {{/UART_Receiver_TB/DUT/uart_rx/bit_counter}} {{/UART_Receiver_TB/DUT/uart_rx/next_bit_counter}} 
 current_wave_config {Untitled 1}
 Untitled 1
 add_wave {{/UART_Receiver_TB/DUT/fifo/wr_en}} {{/UART_Receiver_TB/DUT/fifo/rd_en}} {{/UART_Receiver_TB/DUT/fifo/data_in}} {{/UART_Receiver_TB/DUT/fifo/data_out}} {{/UART_Receiver_TB/DUT/fifo/empty}} {{/UART_Receiver_TB/DUT/fifo/full}} {{/UART_Receiver_TB/DUT/fifo/wr_en_mem}} {{/UART_Receiver_TB/DUT/fifo/rd_en_mem}} {{/UART_Receiver_TB/DUT/fifo/wr_ptr_reg}} {{/UART_Receiver_TB/DUT/fifo/rd_ptr_reg}} {{/UART_Receiver_TB/DUT/fifo/fifo_counter}} {{/UART_Receiver_TB/DUT/fifo/memory}} 
-restart
-INFO: [Wavedata 42-604] Simulation restarted
-run all
-$finish called at time : 1708836 ns : File "D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver.srcs/sim_1/new/UART_Receiver_TB.sv" Line 124
-save_wave_config {D:/Materiale_pentru_facultate/Master/Anul 1/Semestrul 2/RC/Lab/Lab 1/Task 1/UART_Receiver/UART_Receiver_TB_behav.wcfg}
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-exit
-INFO: [Common 17-206] Exiting Vivado at Sat Apr 13 18:47:21 2024...

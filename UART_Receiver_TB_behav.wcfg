@@ -12,8 +12,8 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000000 us"></ZoomStartTime>
-      <ZoomEndTime time="2,136.045001 us"></ZoomEndTime>
-      <Cursor1Time time="2,071.485000 us"></Cursor1Time>
+      <ZoomEndTime time="1,708.836000 us"></ZoomEndTime>
+      <Cursor1Time time="1,682.113462 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="152"></NameColumnWidth>
@@ -147,23 +147,20 @@
       <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/wr_ptr_reg" type="array">
          <obj_property name="ElementShortName">wr_ptr_reg[4:0]</obj_property>
          <obj_property name="ObjectShortName">wr_ptr_reg[4:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/rd_ptr_reg" type="array">
          <obj_property name="ElementShortName">rd_ptr_reg[4:0]</obj_property>
          <obj_property name="ObjectShortName">rd_ptr_reg[4:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/fifo_counter" type="array">
          <obj_property name="ElementShortName">fifo_counter[4:0]</obj_property>
          <obj_property name="ObjectShortName">fifo_counter[4:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory" type="array">
          <obj_property name="ElementShortName">memory[0:31][7:0]</obj_property>
          <obj_property name="ObjectShortName">memory[0:31][7:0]</obj_property>
          <obj_property name="Radix">BINARYRADIX</obj_property>
-         <obj_property name="isExpanded"></obj_property>
          <wvobject fp_name="/UART_Receiver_TB/DUT/fifo/memory[0]" type="array">
             <obj_property name="ElementShortName">[0][7:0]</obj_property>
             <obj_property name="ObjectShortName">[0][7:0]</obj_property>
